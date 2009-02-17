@@ -6,7 +6,8 @@
       <plugin name="dmzRenderPluginLoadModelOSG"/>
       <plugin name="dmzRenderPluginObjectOSG"/>
       <plugin name="dmzRenderPluginLogoOSG"/>
-	  <plugin name="dmzRenderPluginLightingOSG"/>
+      <plugin name="dmzRenderPluginLightingOSG"/>
+      <plugin name="dmzRenderPluginParticleEffectsOSG"/>
       <!--
          Note: Setting this module to unload="false" stops the crash on exit
                under Linux. This seems to be cause by an "on exit" call in
@@ -42,9 +43,9 @@
       <light value="1">
          <position x="20" y="20" z="20"/>
          <direction x="20" y="-20" z="0"/>
-         <ambient r="0" g="0.5" b="0"/>         
-         <diffuse r="0" g="0.5" b="0"/>
-         <specular r="0" g="0" b="0"/>
+         <ambient r="0.5" g="0.5" b="0.5"/>         
+         <diffuse r="0.5" g="0.5" b="0.5"/>
+         <specular r="0.2" g="0.3" b="0.1"/>
       </light>	  
    </dmzRenderPluginLightingOSG>
 </dmz>
