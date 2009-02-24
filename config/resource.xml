@@ -29,6 +29,7 @@
    <resource name="detonation-sound" file="detonation.wav" path="audio"/>
    <resource name="collision-sound" file="collision.wav" path="audio"/>
    <resource name="smoke-particle" file="smoke.rgb"/>
+   <resource name="dust-trail-particle" file="dust_trail.rgb"/>
    <resource name="fire-particle" file="fire.rgb"/>
 </resource-map>
 </runtime>

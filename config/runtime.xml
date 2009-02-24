@@ -10,6 +10,7 @@
    <state name="Damaged"/>
    <state name="Dead"/>
    <state name="Smoke"/>
+   <state name="Dust_Trail"/>
    <state name="Fire"/>
    <event-type name="Event_Launch">
       <audio resource="launch-sound"/>
