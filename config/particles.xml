@@ -1,0 +1,87 @@
+<dmz>
+<runtime>
+   <object-type name="blue_buggy" parent="buggy">
+      <particle-effects>
+         <effect>
+            <!--state resource="smoke-particle" name="Smoke">
+               <offset x="-1" y="2" z="1"/>
+               <particle>
+                  <size minimum="0.75" maximum="5.0"/>
+                  <alpha minimum="0.7" maximum="1.0"/>
+                  <color>
+                     <minimum r="1.0" g="1.0" b="1.0" a="0"/>
+                     <maximum r="1.0" g="1.0" b="1.0" a="1.0"/>
+                  </color>
+                  <lifetime seconds="65"/>
+                  <mass kilograms="0.1"/>
+                  <radius meters="1"/>
+                  <density kilograms-per-metercube="1"/>
+               </particle>
+               <plume>
+                  <shooter minimum="0.0" maximum="0.0"/>
+                  <gravity value="-5"/>
+                  <speed meters="1.0" seconds="1.0"/>
+                  <emission minimum="5" maximum="10"/>
+                  <placer>
+                     <point x="-1" y="-1.5" z="-1"/>
+                     <point x="1" y="-1.5" z="-1"/>
+                     <point x="1" y="1.5" z="-1"/>
+                     <point x="-1" y="1.5" z="-1"/>
+                  </placer>
+               </plume>
+            </state-->
+         </effect>
+         <effect>
+            <state resource="fire-particle" name="Fire">
+               <offset x="0" y="0" z="3"/>
+               <particle>
+                  <size minimum="0.75" maximum="3.0"/>
+                  <alpha minimum="0.1" maximum="1.0"/>
+                  <color>
+                     <minimum r="1" g="0.3" b="0.2"/>
+                     <maximum r="1" g="0.8" b="0.2"/>
+                  </color>
+                  <lifetime seconds="1"/>
+                  <mass kilograms="0.1"/>
+                  <radius meters="1"/>
+                  <density kilograms-per-metercube="1"/>
+               </particle>
+               <plume>
+                  <shooter minimum="0.0" maximum="0.7853"/>
+                  <gravity value="-5"/>
+                  <speed meters="0.0" seconds="0.0"/>
+                  <emission minimum="10" maximum="15"/>
+                  <placer>
+                     <point x="0" y="-1" z="-1"/>
+                     <point x="0" y="1" z="-2"/>
+                     <point x="1" y="-1" z="-1"/>
+                     <point x="-1" y="-1" z="-1"/>
+                  </placer>
+               </plume>
+            </state>
+         </effect>
+      </particle-effects>
+   </object-type>
+   <!--object-type name="blue_buggy" parent="buggy">
+      <render>
+         <particle-effects>
+            <smoke resource="smoke-particle" state="Dead">
+               <offset x="0" y="0" z="4"/>
+               <particle>
+                  <color r="0.90" g="0.9" b="0.9"/>
+               </particle>
+               <plume>
+                  <shooter minimum="0.0" maximum="3.14159"/>
+                  <placer>
+                     <point x="0" y="-1" z="-1"/>
+                     <point x="0" y="1" z="-2"/>
+                     <point x="1" y="-1" z="-1"/>
+                     <point x="-1" y="-1" z="-1"/>
+                  </placer>
+               </plume>
+            </smoke>
+         </particle-effects>
+      </render>
+   </object-type-->
+</runtime>
+</dmz>
